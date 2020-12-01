@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.AddShoeFragment">
+
+
+        <EditText
+            android:id="@+id/shoeNameEditText"
+            android:hint="@string/shoe_name"
+            android:maxLength="30"
+            android:layout_marginHorizontal="34dp"
+            style="@style/EditTextBackground"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:paddingHorizontal="15dp"
+            android:layout_height="45dp" />
+
+        <EditText
+            android:id="@+id/shoeCompanyEditText"
+            android:hint="@string/shoe_company"
+            android:maxLength="30"
+            android:layout_marginHorizontal="34dp"
+            style="@style/EditTextBackground"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/shoeNameEditText"
+            android:paddingHorizontal="15dp"
+            android:layout_height="45dp" />
+
+        <EditText
+            android:id="@+id/shoeSizeEditText"
+            android:hint="@string/shoe_size"
+            android:maxLength="30"
+            android:layout_marginHorizontal="34dp"
+            style="@style/EditTextBackground"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_below="@id/shoeCompanyEditText"
+            android:paddingHorizontal="15dp"
+            android:layout_height="45dp" />
+
+        <EditText
+            android:id="@+id/shoeDescriptionEditText"
+            android:hint="@string/shoe_description"
+            android:layout_below="@id/shoeSizeEditText"
+            android:maxLength="30"
+            android:layout_marginHorizontal="34dp"
+            style="@style/EditTextBackground"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:paddingHorizontal="15dp"
+            android:layout_height="45dp" />
+
+        <Button
+            android:id="@+id/saveShoeButton"
+            style="@style/ButtonBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/cancelShoeButton"
+            android:layout_marginBottom="20dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/save" />
+
+
+        <Button
+
+            android:id="@+id/cancelShoeButton"
+            style="@style/ButtonBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="48dp"
+            android:text="@string/cancel" />
+
+    </RelativeLayout>
+</layout>

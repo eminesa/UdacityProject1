@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="show_list">Show Shoe List</string>
+    <string name="login">Login</string>
+    <string name="welcome">W E L C O M E</string>
+    <string name="title_welcome">Welcome</string>
+    <string name="aboutShoe">This app about Shoe</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_login">Return Login</string>
+    <string name="email_required">Email is can\'t empty</string>
+    <string name="password_required">Please enter password more than 4 number</string>
+    <string name="email_is_invalid">Please enter a valid email address</string>
+    <string name="email_not_match">Email is not match</string>
+    <string name="password_not_match">Password is not match</string>
+    <string name="need_to_sign_up">"You need to sign up "</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="shoe_company">Shoe Company</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="shoe_description">About Shoe Description</string>
+    <string name="save">Save Shoe</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

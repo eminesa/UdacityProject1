@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".fragments.WelcomeScreenFragment"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/firstTextView"
+            style="@style/EditTextBackground"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/secondTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/transparent"
+            android:text="@string/welcome" />
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/secondTextView"
+            style="@style/EditTextBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/aboutShoe" />
+
+        <Button
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="50dp"
+            android:id="@+id/showListButton"
+            style="@style/ButtonBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/show_list" />
+
+    </RelativeLayout>
+</layout>
